@@ -9,7 +9,7 @@
   },
   "options_page": "options.html",
   "content_scripts": [ {
-      "matches": ["http://localhost:4201/*"],
+      "matches": ["http://localhost:*/tests*", "http://localhost:*/*tests*"],
       "css": ["abortStyles.css"]
   } ],
   "page_action": {
