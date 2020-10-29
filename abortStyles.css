@@ -7,7 +7,15 @@
   text-shadow: none !important;
   width: 100%;
   z-index: 99;
+  direction: ltr;
 }
+
+#qunit-tests,
+#qunit-testresult,
+#qunit-testrunner-toolbar {
+  direction: ltr;
+}
+
 #qunit-header {
   line-height: 1em;
   top: 0;

@@ -1,7 +1,7 @@
 {
-  "name": "Getting Started Example",
+  "name": "Let me abort qunit",
   "version": "1.0",
-  "description": "Build an Extension!",
+  "description": "Keeps the qunit abort button in one place and other helpful updates.",
   "permissions": ["activeTab", "declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
@@ -12,20 +12,11 @@
       "matches": ["http://localhost:*/tests*", "http://localhost:*/*tests*"],
       "css": ["abortStyles.css"]
   } ],
-  "page_action": {
-    "default_popup": "popup.html",
-    "default_icon": {
-      "16": "images/get_started16.png",
-      "32": "images/get_started32.png",
-      "48": "images/get_started48.png",
-      "128": "images/get_started128.png"
-    }
-  },
   "icons": {
-    "16": "images/get_started16.png",
-    "32": "images/get_started32.png",
-    "48": "images/get_started48.png",
-    "128": "images/get_started128.png"
+    "16": "images/the-qunit-let-me-abort-hamster.png",
+    "32": "images/the-qunit-let-me-abort-hamster.png",
+    "48": "images/the-qunit-let-me-abort-hamster.png",
+    "128": "images/the-qunit-let-me-abort-hamster.png"
   },
   "manifest_version": 2
 }
