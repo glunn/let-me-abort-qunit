@@ -10,8 +10,12 @@
   "options_page": "options.html",
   "content_scripts": [ {
       "matches": ["http://localhost:*/tests*", "http://localhost:*/*tests*"],
-      "css": ["abortStyles.css"]
+      "css": ["abortStyles.css"],
+      "js": ["content.js"]
   } ],
+  "externally_connectable": {
+    "matches": ["http://localhost:*/tests*", "http://localhost:*/*tests*"]
+  },
   "icons": {
     "16": "images/the-qunit-let-me-abort-hamster.png",
     "32": "images/the-qunit-let-me-abort-hamster.png",

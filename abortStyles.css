@@ -15,7 +15,6 @@
 #qunit-testrunner-toolbar {
   direction: ltr;
 }
-
 #qunit-header {
   line-height: 1em;
   top: 0;
@@ -23,7 +22,6 @@
 #qunit-header a {
   font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
 }
-
 #qunit-tests li a {
   font-weight: 600 !important;
   color: darkslategray !important;
@@ -38,7 +36,6 @@
   content: "⟳";
   padding-left: 5px;;
 }
-
 #qunit-userAgent {
   top: 48px;
   font-weight: 400;
