@@ -16,6 +16,21 @@
   font-family: "Helvetica Neue Light", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial, sans-serif;
 }
 
+#qunit-tests li a {
+  font-weight: 600 !important;
+  color: darkslategray !important;
+  float: right !important;
+  padding: 0 !important;
+}
+.runtime {
+  float: none !important;
+  padding-left: 5px !important;
+}
+#qunit-tests li a::after {
+  content: "⟳";
+  padding-left: 5px;;
+}
+
 #qunit-userAgent {
   top: 48px;
   font-weight: 400;
