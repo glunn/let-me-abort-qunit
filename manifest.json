@@ -8,6 +8,10 @@
     "persistent": false
   },
   "options_page": "options.html",
+  "content_scripts": [ {
+      "matches": ["http://localhost:4201/*"],
+      "css": ["abortStyles.css"]
+  } ],
   "page_action": {
     "default_popup": "popup.html",
     "default_icon": {
