@@ -82,6 +82,9 @@ div#qunit-testrunner-toolbar label, div#qunit-testrunner-toolbar input {
   z-index: 100;
 }
 
+.qunit-filter, #qunit-modulefilter {
+  float: left !important;
+}
 #qunit-filter-input {
   resize: both;
   overflow: auto;
