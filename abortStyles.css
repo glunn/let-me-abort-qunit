@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 #qunit-header, 
 #qunit-banner, 
 #qunit-testrunner-toolbar, 
@@ -74,8 +78,9 @@ div#qunit-testrunner-toolbar label, div#qunit-testrunner-toolbar input {
 #qunit-abort-tests-button {
   background-color: grey;
   color: white;
+  border: none;
   border-radius: .25rem;
-  padding: 5px 15px 5px 15px;
+  padding: 8px 15px 8px 15px;
   position: fixed;
   top: 10px;
   right: 50px;
@@ -84,6 +89,7 @@ div#qunit-testrunner-toolbar label, div#qunit-testrunner-toolbar input {
 
 .qunit-filter, #qunit-modulefilter {
   float: left !important;
+  margin-left: 3px !important;
 }
 #qunit-filter-input {
   resize: both;
